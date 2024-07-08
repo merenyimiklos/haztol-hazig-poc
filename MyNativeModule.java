@@ -1,4 +1,4 @@
-package com.example.react;
+package com.emma.poc;
 
 import androidx.annotation.NonNull;
 

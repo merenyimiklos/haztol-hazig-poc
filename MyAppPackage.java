@@ -1,4 +1,5 @@
-package com.example.react;
+package com.emma.poc;
+
 import androidx.annotation.NonNull;
 
 import com.facebook.react.ReactPackage;
@@ -28,7 +29,5 @@ public class MyAppPackage implements ReactPackage {
 
         return modules;
     }
-
-
 
 }

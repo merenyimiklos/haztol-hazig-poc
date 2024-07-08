@@ -1,4 +1,4 @@
-package com.example.react;
+package com.emma.poc;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -34,7 +34,8 @@ public class ReactNativeFragment extends Fragment {
 
     @Nullable
     @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
+            @Nullable Bundle savedInstanceState) {
 
         Bundle props = new Bundle();
         if (getArguments() != null) {
@@ -57,7 +58,6 @@ public class ReactNativeFragment extends Fragment {
                     .setUseDeveloperSupport(BuildConfig.DEBUG)
                     .setInitialLifecycleState(LifecycleState.RESUMED)
                     .build();
-
 
             mReactRootView.startReactApplication(mReactInstanceManager, "integrated", props);
         }

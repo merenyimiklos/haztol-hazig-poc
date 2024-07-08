@@ -1,6 +1,7 @@
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'com.emma.poc'
     compileSdkVersion 34
     defaultConfig {
         minSdkVersion 28

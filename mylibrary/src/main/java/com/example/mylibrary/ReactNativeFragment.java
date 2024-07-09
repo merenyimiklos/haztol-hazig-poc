@@ -1,4 +1,4 @@
-package com.emma.poc;
+package com.example.mylibrary;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

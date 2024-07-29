@@ -1,0 +1,35 @@
+[versions]
+agp = "8.3.1"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+material = "1.12.0"
+activity = "1.8.0"
+constraintlayout = "2.1.4"
+fbReactGradlePluginVer = "0.74.83"
+navigationFragment = "2.7.7"
+navigationUi = "2.7.7"
+soloader = "0.10.5"
+
+[libraries]
+hermes-android = { module = "com.facebook.react:hermes-android" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+navigation-fragment = { group = "androidx.navigation", name = "navigation-fragment", version.ref = "navigationFragment" }
+navigation-ui = { group = "androidx.navigation", name = "navigation-ui", version.ref = "navigationUi" }
+react-android = { module = "com.facebook.react:react-android" }
+soloader = { module = "com.facebook.soloader:soloader", version.ref = "soloader" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+react = { id = "com.facebook.react", version.ref = "agp" }
+androidLibrary = { id = "com.android.library", version.ref = "agp" }
+#fbReactPlugin = { id = "com.facebook.react" }
+#fbReactGradlePlugin = { id = "react-native-gradle-plugin", version.ref = "fbReactGradlePluginVer" }
+
